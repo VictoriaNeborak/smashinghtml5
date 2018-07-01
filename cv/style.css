@@ -1,0 +1,86 @@
+body {
+    background-color: #5858586E;
+    width: 800px;
+    margin: 0 auto;
+}  
+header {
+    display: inline-block;
+    background-color: #8f7289a8;
+    width: 100%;
+    padding-right: 20px;
+    text-align: right;
+    box-sizing: border-box;   
+}
+header img {
+    margin-left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: #ffffff 10px solid;
+}
+header h1 {
+    font-size: 50px;
+    font-family: "Monotype Corsiva" Cursive;
+    color: #1b1b1a;
+}
+
+header h3 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    
+ul {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #b478a559;
+    width: 350px;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+ul li {
+    font-size: 20px;
+    text-align: middle;
+}
+
+ul {
+    padding: 5px;
+}
+
+h2 {
+    font-size: 30px;
+     color: #ffffff;
+}
+ul li img {
+    height: 30px;
+    width: 30px;
+    
+}
+ul li img.adress {
+    height: 30px;
+    width: 20px;
+}
+li span {
+    font-size: 20px;
+    padding-left: 5px;
+}
+li h3 {
+    
+    font-family: "My Custom Font", Verdana, Tahoma;;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: "Orhydea Demo.ttf";
+}
+div {
+    margin: 0;
+
+}

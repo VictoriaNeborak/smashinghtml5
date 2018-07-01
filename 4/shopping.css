@@ -51,10 +51,12 @@ input[type="checkbox"]{
 }
 td {
     padding: 10px;
+
 }
+
 tr:hover {
-    border-top: 3px white solid;
-    border-bottom: 3px white solid;
+    border-top: 8px white solid;
+    border-bottom: 8px white solid;
 }
 
 input[type="checkbox"]:checked + label {
