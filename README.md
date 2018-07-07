@@ -1,1 +1,2 @@
-https://github.com/VictoriaNeborak/smashinghtml5/blob/master/index.html
+
+[smashinghtml5](https://VictoriaNeborak.github.io/smashinghtml5)
