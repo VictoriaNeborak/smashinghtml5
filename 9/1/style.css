@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'BigJohn';
+    src: url(fonts/Bigjohn.otf);
+}
+@font-face {
+    font-family: 'slim+joe';
+    src: url(fonts/slim+joe.otf);
+}
+@font-face {
+    font-family: 'lato';
+    src: url(fonts/lato-bold.ttf);
+}
+@font-face {
+    font-family: 'lato-reg';
+    src: url(fonts/lato-reg.ttf);
+}
+
+body {
+    width: 1920px;
+    height: 2968px;
+}
+header {
+    width: 100%;
+    height: 30%;
+    background-image: url(img/computer.png);
+    padding: 30px;
+}
+nav.top {
+    width: 100%;
+}
+ul.header-ul {
+    color: white;
+    /* width: 45%; */
+    margin: 30px;
+    padding: 30px;
+}
+ header li {
+    list-style-type: none;
+    text-align: right;
+    float: right;
+    padding: 10px 40px 10px 40px;
+    border-right: 2px solid gray;
+}
+.logo {
+        float: left;
+}
+h1 {
+    color:white;
+    font-family: "Bigjohn";
+    font-size: 46px;
+    text-transform: uppercase;
+    padding-top: 295px;
+}
+div.container {
+    width: 65%;
+    margin: 0 auto;
+}
+div.wrapper {
+    text-align: center;
+}
+div.wrapper p {
+    color: white;
+    font-family: "slim+joe";
+    font-size: 30px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+button.green {
+    font-size: 14px;
+    color: #48bf72;
+    border: 2px #48bf72 solid;
+    border-radius: 10%;
+    background-color: transparent;
+    padding: 10px;
+}
+main.part1 {
+    background-color: white;
+    width: 75%;
+    height: 1055px;
+    margin: 0 auto;
+}
+main.part2 {
+    background-image: url(img/men-computer.png);
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+main.part2:hover {
+    background-color: #fff;
+}
+div.dupont {
+    
+    width: 30%;
+    text-align: left;
+    padding-left: 980px ;
+}
+.part2 h1 {
+    font-family: 'lato';
+    font-size: 30px;
+}
+.part2 p {
+    font-family: 'lato-reg';
+    font-size: 16px;
+    color: #ffffff;
+}
+main.contacts {
+    background-color: white;
+    width: 100%;
+    height: 570px;
+}
+footer {
+    background-color: #3c4955;
+    width: 100%;
+    height: 200px;
+}
+ul.main-part-1 {
+    margin: 55px auto;
+    padding: 20px;
+    width: 43%;
+}
+main.part1 li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #eaeaea;
+    font-family: 'lato';
+}
