@@ -8,5 +8,6 @@
 - ## **Lesson 9** - [FOLIAC](https://VictoriaNeborak.github.io/smashinghtml5/9/1)
 - ## **Lesson 9** - [Black and white](https://VictoriaNeborak.github.io/smashinghtml5/9/2)
 - ## **Lesson 10** - [CHECKERS](https://VictoriaNeborak.github.io/smashinghtml5/10)
-- ## **Lesson 12** - [Nick Product card](https://VictoriaNeborak.github.io/smashinghtml5/12)
-- ## **Lesson 13-14** - [Forms](https://VictoriaNeborak.github.io/smashinghtml5/13-14/1)
+- ## **Lesson 12** - [Nick Product card](https://VictoriaNeborak.github.io/smashinghtml5/12/1)
+- ## **Lesson 13** - [Forms](https://VictoriaNeborak.github.io/smashinghtml5/13-14/13)
+- ## **Lesson 14** - [Forms](https://VictoriaNeborak.github.io/smashinghtml5/13-14/14)
