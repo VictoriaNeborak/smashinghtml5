@@ -11,3 +11,6 @@
 - ## **Lesson 12** - [Nick Product card](https://VictoriaNeborak.github.io/smashinghtml5/12/1)
 - ## **Lesson 13** - [Forms](https://VictoriaNeborak.github.io/smashinghtml5/13-14/13)
 - ## **Lesson 14** - [Forms](https://VictoriaNeborak.github.io/smashinghtml5/13-14/14)
+- ## **Lesson 15** - [Greed](https://VictoriaNeborak.github.io/smashinghtml5/15/1)
+- ## **Lesson 15** - [About us](https://VictoriaNeborak.github.io/smashinghtml5/15/2)
+- ## **Lesson 16** - [Blog Greed](https://VictoriaNeborak.github.io/smashinghtml5/16)
