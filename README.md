@@ -15,4 +15,5 @@
 - ## **Lesson 15** - [About us](https://VictoriaNeborak.github.io/smashinghtml5/15/2)
 - ## **Lesson 16** - [Blog Greed](https://VictoriaNeborak.github.io/smashinghtml5/16)
 - ## **Lesson 17** - [svg](https://VictoriaNeborak.github.io/smashinghtml5/17)
-- ## **Lesson 18** - [Design Lab](https://VictoriaNeborak.github.io/smashinghtml5/18)
+- ## **Lesson 18** - [Design Lab](https://VictoriaNeborak.github.io/smashinghtml5/18/1)
+- ## **Lesson 18** - [Cahee](https://VictoriaNeborak.github.io/smashinghtml5/18/2)
