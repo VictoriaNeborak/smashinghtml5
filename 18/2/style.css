@@ -4,6 +4,9 @@ body {
 }
 h1 {
     font-size: 60px;
+    font-weight: 800;
+    line-height: 25px;
+   
 }
 .ba-header {
     display: block;
@@ -42,6 +45,9 @@ a:hover {
     font-weight: normal;
     margin-top: 265px;
     margin-left: 0px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
 }
 .ba-header__content--button {
     background-color: #ff6033;
@@ -61,6 +67,18 @@ a:hover {
 .ba-header__content--title {
     font-size: 60px;
 }
+
+.ba-header__scroll {
+    display: block;
+    width: 25px;
+    height: 30px;
+   margin: 0 auto;
+   margin-top: 100px; 
+   
+}
+
+
+
 .main-content {
     width: 100%;
 }
@@ -74,7 +92,7 @@ a:hover {
     display: block;
     background-color: #00b2b2;
     width: 100%;
-    padding: 55px 155px 55px 155px;
+    padding: 55px 155px 0 155px;
     color: white;
 }
 .ba-services {
@@ -85,6 +103,39 @@ a:hover {
     color: white;
 }
 
+.ba-box__content--services {
+    display: flex;
+    flex-direction: row;
+}
+.ba-services__button {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+   
+  
+
+}
+
+
+.ba-services__button--text {
+    width: 70%;
+    
+}
+
+
+.ba-services__button--img {
+    width: 30%;
+}
+
+
+
+.ba-services__button--text::after {
+    border-left: #262626 2px solid;
+}
+
+
 .ba-box__img {
     width: 50%;
     position: relative;
@@ -92,11 +143,301 @@ a:hover {
    
 }
 .ba-box__content {
-    max-width: 50%;
-    padding: 150px 80px 150px 100px; 
+    width: 50%;
+    padding: 150px 80px 150px 100px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px; 
     
 }
 .ba-box__img--title {
     position: absolute;
     top: 35%;
+}
+
+.ba-box__description--gallery {
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px; 
+}
+
+.ba-gallery {
+    display: block;
+    background-color: #ffe92f;
+    width: 100%;
+    padding: 55px 155px 55px 155px;
+    text-align: center;
+}
+
+.ba-box--gallery {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+.ba-box__img--gallery{
+    max-width: 100%;
+    height: 400px;
+    
+   
+}
+
+.ba-services__button {
+    border: none;
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    margin-bottom: 20px;
+    width: 400px;
+    position: relative;
+    
+}
+
+.ba-services__content--button {
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.ba-box__title--gallery {
+    text-align: center;
+    width: 100%;
+}
+
+
+.first-row
+{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    
+}
+
+.second-row
+{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    
+}
+
+
+.fullH
+{
+    height: 100%;
+}
+
+.main .block1
+{
+    flex: 1;
+}
+
+.main .block2
+{
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .block3
+{
+    flex: 1;
+    height: 50%;
+}
+
+.main .block4
+{
+    flex: 1;
+}
+
+.main .block5
+{
+    flex: 1;
+   
+}
+
+.block6
+{
+    flex: 1;
+    height: 50%;
+   
+}
+
+.second-row div {
+    margin: 5px;
+}
+
+.first-row div {
+    margin: 5px;
+}
+.ba-services__content--button {
+    padding: 0;
+}
+.button-view-more {
+    width: 200px;
+    height: 50px;
+    background-color: #5585a2;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.ba-subscribe {
+    display: block;
+    background: #ffffff url(img/blueberry_bg.png) no-repeat;
+    width: 100%;
+    padding: 65px 160px 65px 160px;
+}
+.ba-box__input {
+    width: 570px;
+    height: 55px;
+}
+.ba-box__btn {
+    width: 170px;
+    height: 55px;
+    background-color: #96b92c;
+    border: none;
+}
+.ba-box--subscribe {
+    display: block;
+    max-width: 70%;
+}
+.ba-blog {
+    background-color: #b07cf7;
+    width: 100%;
+    display: block;
+    padding: 55px 155px 55px 155px;
+    text-align: center;
+}
+.ba-box--blog {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 65px;
+    color: #ffffff; 
+}
+.ba-box__pictures--blog {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+
+}
+.ba-blog__btn {
+    width: 170px;
+    height: 55px;
+    background-color: #f72b3b;
+    border: none;
+    color: #ffffff;
+    margin-top: 50px;
+    text-transform: uppercase;
+    
+}
+.ba-blog-img {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+}
+.ba-blog-date {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;;
+    top: 40px;
+    left: 40px;
+    background-color: #545a64;
+    opacity: .9;
+    border-radius: 5px;
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.ba-blog-title {
+    position: absolute;
+    display: block;
+    bottom: 25%;
+    left: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ba-blog-author {
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    display: block;
+    width: 100%;
+}
+.ba-contacts {
+    display: block;
+    box-sizing: border-box;
+    background: #b07cf7 url(img/footer_bg.png) no-repeat;
+    width: 100%;
+    padding: 55px 155px 55px 155px;
+    text-align: center;
+    
+}
+.ba-contacts__contant {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.ba-contacts__contacts {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ba-contacts-form {
+    width: 50%;
+    box-sizing: border-box;
+}
+.ba-contacts-form__profile {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: #7adddd;
+    opacity: .6;
+    border: none;
+    color: #ffff;
+    padding-left: 15px; 
+}
+.ba-contacts-form__profile--name {
+    background-color: #00c4c4;
+    border-left: 4px solid #355b82;
+}
+.ba-contacts-form__profile--message {
+    height: 250px;
+}
+.ba-contacts-info {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+.ba-contacts__title {
+    text-transform: uppercase;
+}
+.ba-footer {
+    background-color: #262626;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ba-footer__authop--pink {
+    color: #ff2b58;
+}
+.ba-footer__logo {
+    width: 65px;
+    height: 30px;
 }
